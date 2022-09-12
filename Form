@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>admission form</title>
+        <style>
+            table{
+ font-family: verdana; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: linear-gradient(to bottom, #33fff5 0%, #ff99cc 100%);  
+ border-collapse: collapse; 
+ border: 4px solid #221d1d;
+ border-style: dashed;
+table.inner{
+    border: 10px;
+}
+        </style>
+    </head>
+    <body>
+        <h2>ASSIGNMENT SUBMISSION</h2>
+        <table align="centre" cellpadding ="10">
+            <tr>
+                <td>FirstName </td>
+                <td><input type="text" name="FirstName"  placeholder="urbeena" >
+                    
+                    </td>
+            </tr>
+            <tr>
+                <td>lastName</td>
+                <td><input type="text" name = "lastName"  placeholder="rashid"></td>
+
+            </tr>
+            <tr>
+                <td>Email ID</td>
+                <td><input type="email" name = "email" placeholder="@gmail.com"></td>
+            </tr>
+            <tr>
+                <td>mobileNumber</td>
+                <td><input type="text" name="mobilenumber" maxlength="10" placeholder="1234***">(only 10 digits allowed )</td>
+            </tr>
+            <tr>
+                <td>GENDER</td>
+                <td><input type="radio" name="gender" placeholder="male"/>
+                male 
+                <input type="radio" name="gender" placeholder="female"</td>female
+            </tr>
+            <tr>
+                <td>Courses<br />DEPT</td>
+                
+                <td> <input type="radio" name="Btech CSE" placeholder="CSE"/>
+                Computer science and engeenering
+                <input type="radio" name="Btech CE" placeholder="CE"/>
+                civil engeenering<br>
+                <input type="radio" name="Btech foodtech" placeholder="FT/">
+                (Bachelor of Science)
+                <input type="radio" name=" Btech EE" placeholder="EE/">
+                (electrical engeenering)<br>
+                
+                </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                    </td>
+                    </tr>
+        </table>
+    </body>
+</html>
