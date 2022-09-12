@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+    background: linear-gradient(to bottom, #33fff5 0%, #ff99cc 100%);  
+  width: 300px;
+  border: 15px solid rgb(5, 232, 228);
+  padding: 50px;
+  margin: 20px;
+}
+</style>
+</head>
+<body>
+
+<h2>Demonstrating the Box Model</h2>
+
+<p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: borders, padding, margins, and the actual content.</p>
+
+<div> We have added a 50px padding, 20px margin and a 15px green border. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores, cum quaerat? Voluptates, earum. Autem, magnam animi reprehenderit impedit deserunt dignissimos vero enim tenetur similique! Nemo possimus nihil nulla adipisci at!</div>
+
+</body>
+</html>
+
+
