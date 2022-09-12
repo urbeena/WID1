@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>css class and id</title>
+    </head>
+    <style>
+        h1{
+            color:red;
+
+
+        }
+        div{
+            background-color: antiquewhite;
+        }
+        #red{
+            color:white;
+            background-color: red;
+        }
+        .blue{
+            background-color: blue;
+            color: white;
+        }
+        *{
+            margin:0;
+            padding: 10;
+           
+        }
+    </style>
+    <body>
+        <div>
+            <h1>use of class and id</h1>
+           <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti repellat nesciunt necessitatibus cumque, dolore saepe quibusdam expedita rem nemo atque sint accusamus quasi eos, officiis exercitationem ratione, laudantium architecto ex.
+            
+            </p>
+            <h1>this is another </h1>
+            <span id="red">bg is red</span>
+        </div>
+    <span class="blue">first tag</span>
+     <span class="blue">second tag</span>
+    <span class="blue">third tag</span>
+    </body>
+</html>
